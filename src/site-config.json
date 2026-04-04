@@ -1,0 +1,472 @@
+{
+  "business": {
+    "name": "Legacy Garage Door",
+    "phone": "555-gar-r94",
+    "category": "garage-door",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  "design": {
+    "preset": {
+      "id": "garage-door-heritage-craft",
+      "categoryGroup": "garage-door",
+      "name": "Heritage Craft",
+      "recipeFile": "garage-door/heritage-craft.astro",
+      "colors": {
+        "primary": "#6B6255",
+        "primaryDark": "#403b33",
+        "primaryLight": "#cbc8c4",
+        "secondary": "#5b5348",
+        "accent": "#6B6255",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5b5348",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "garage-door/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Reliable Garage Door Experts in Las Vegas",
+      "heroSubline": "We keep your garage doors running smoothly in the desert heat. Local service you can trust for repairs, installations, and maintenance.",
+      "aboutTitle": "Your Trusted Garage Door Specialists",
+      "aboutText": [
+        "Since 2012, Legacy Garage Door has been serving Las Vegas homes with honest, dependable garage door services. Founded by a local family, we understand how the extreme Nevada weather impacts your garage doors.",
+        "We approach every job with meticulous attention to detail and use only high-quality parts designed to withstand our desert climate. Our technicians are background-checked and trained to work efficiently in your home.",
+        "As active members of the Las Vegas community, we're committed to giving back through local youth sports sponsorships and veteran discounts. Your satisfaction is our family's reputation."
+      ],
+      "valueProps": [
+        {
+          "title": "Heat-Resistant Parts",
+          "description": "We use materials specifically rated for 120°F+ temperatures to prevent warping and deterioration."
+        },
+        {
+          "title": "Same-Day Service",
+          "description": "Most repairs completed within 24 hours because we know you can't wait in our desert climate."
+        },
+        {
+          "title": "Local Knowledge",
+          "description": "12 years experience with Las Vegas' unique housing stock from vintage homes to new builds."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "No surprise fees - we provide clear quotes before any work begins."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Service Today",
+      "ctaSubline": "Call 555-GAR-R94 for fast, friendly garage door solutions across the Las Vegas valley."
+    },
+    "services": [
+      {
+        "slug": "garage-door-repair",
+        "name": "Garage Door Repair",
+        "shortDescription": "Fast fixes for broken springs, off-track doors, and opener malfunctions in the Vegas heat.",
+        "description": "When your garage door stops working in Las Vegas' extreme temperatures, you need solutions fast. Our technicians specialize in diagnosing and repairing all types of garage door issues common to our area - from broken torsion springs (which fail more frequently in our heat) to misaligned tracks caused by shifting foundations in our poor soil conditions.\n\nWe carry a complete inventory of heat-rated replacement parts in our service vans to complete most repairs in a single visit. Whether it's a sensor alignment issue from dust storms or a worn-out gear in your opener from constant use, we'll identify the root cause and explain your options before making any repairs.",
+        "process": [
+          "Step 1: Thorough inspection of door, tracks, springs, and opener components",
+          "Step 2: Explanation of issues found with digital photos if needed",
+          "Step 3: Immediate repair using climate-appropriate parts when possible",
+          "Step 4: Safety testing and lubrication of all moving parts"
+        ],
+        "benefits": [
+          "Same-day service for most common issues",
+          "Parts warrantied against heat damage",
+          "Technicians trained on all major brands",
+          "No service fees if we can't fix it"
+        ],
+        "faq": [
+          {
+            "question": "Why do my garage door springs keep breaking?",
+            "answer": "Las Vegas' extreme temperature swings cause metal fatigue. We install high-cycle springs rated for 25,000+ uses that better withstand our climate."
+          },
+          {
+            "question": "Can you fix my opener remote that stopped working?",
+            "answer": "Yes! We reprogram or replace remotes affected by signal interference common in dense neighborhoods like Summerlin or Henderson."
+          }
+        ]
+      },
+      {
+        "slug": "new-garage-door-installation",
+        "name": "New Garage Door Installation",
+        "shortDescription": "Energy-efficient door installations designed for Nevada's punishing sun exposure.",
+        "description": "Upgrading your garage door in Las Vegas isn't just about curb appeal - it's about protecting your home from extreme UV rays and dust storms. We specialize in installing insulated garage doors with UV-resistant finishes that won't fade or peel after one summer.\n\nOur selection includes doors specifically designed for Southern Nevada's architectural styles, from contemporary designs for newer Summerlin homes to traditional raised-panel options that complement vintage Las Vegas properties. Every installation includes proper sealing to keep out our fine desert dust and proper balancing to account for temperature fluctuations that can affect operation.",
+        "process": [
+          "Step 1: Free consultation to discuss style, insulation, and material options",
+          "Step 2: Precise measurement of your opening accounting for potential foundation shifts",
+          "Step 3: Professional removal and disposal of your old door",
+          "Step 4: Installation with upgraded hardware for durability"
+        ],
+        "benefits": [
+          "Energy Star rated options available",
+          "15+ styles to match your home's architecture",
+          "Installation completed in 4-6 hours typically",
+          "Includes full operation testing"
+        ],
+        "faq": [
+          {
+            "question": "What's the best garage door material for Las Vegas?",
+            "Answer": "Steel with thermal breaks and UV-resistant finishes performs best here, though we also offer fiberglass options for coastal-style homes."
+          }
+        ]
+      },
+      {
+        "slug": "garage-door-maintenance",
+        "name": "Preventative Maintenance",
+        "shortDescription": "Proactive care to extend your garage door's life in harsh desert conditions.",
+        "description": "The desert climate is brutal on garage doors - between the dust, heat, and UV exposure, components wear out faster here than in milder climates. Our bi-annual maintenance program helps Henderson and Las Vegas homeowners avoid costly repairs by catching small issues before they become big problems.\n\nOur 25-point inspection covers everything from lubricating bearings (using high-temp grease) to checking weatherstripping for brittleness caused by sun exposure. We adjust spring tension seasonally as temperature changes affect metal contraction, and clean photo-eye sensors that get obscured by our frequent dust storms. Members of our maintenance program receive priority scheduling and 10% discounts on any needed repairs.",
+        "process": [
+          "Step 1: Complete visual inspection of all door components",
+          "Step 2: Cleaning and lubrication of all moving parts",
+          "Step 3: Safety system testing including auto-reverse",
+          "Step 4: Detailed report with recommended actions"
+        ],
+        "benefits": [
+          "Reduces repair needs by up to 70%",
+          "Helps maintain energy efficiency",
+          "Extends door lifespan significantly",
+          "Includes seasonal adjustments"
+        ],
+        "faq": [
+          {
+            "question": "How often should I service my garage door in Las Vegas?",
+            "answer": "We recommend every 6 months - before summer's extreme heat and after winter's cooler temperatures when components contract."
+          }
+        ]
+      },
+      {
+        "slug": "opener-installation",
+        "name": "Garage Door Opener Installation",
+        "shortDescription": "Quiet, reliable opener installations with smart home compatibility.",
+        "description": "Modern garage door openers need to withstand Las Vegas' extreme conditions while providing convenient features homeowners expect. We install belt-drive openers that operate quietly (important for homes near busy areas like the Strip) and include battery backups for power outages during our summer monsoons.\n\nOur technicians are certified to install all major brands and can integrate new openers with your smart home system. We pay special attention to proper sensor alignment, which can be affected by our intense sunlight causing false triggers. Every installation includes programming of your existing remotes and keypads, plus we'll show you how to use the smartphone app features.",
+        "process": [
+          "Step 1: Assessment of your garage structure and electrical setup",
+          "Step 2: Removal of old opener (we recycle properly)",
+          "Step 3: Professional mounting and alignment",
+          "Step 4: Full testing and customer demonstration"
+        ],
+        "benefits": [
+          "Models with 10-year warranties available",
+          "WiFi-enabled options with app control",
+          "Includes safety sensor alignment",
+          "Battery backup for power outages"
+        ],
+        "faq": [
+          {
+            "question": "Why does my garage door opener work inconsistently?",
+            "answer": "In Las Vegas, heat can cause expansion in mounting brackets and sunlight can interfere with sensors. We'll secure all components and shade sensors if needed."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-service",
+        "name": "24/7 Emergency Service",
+        "shortDescription": "Round-the-clock repairs when you can't secure your home.",
+        "description": "When your garage door won't close at night or breaks during a dust storm, you need immediate help. Our emergency team is available 24/7 to secure your home, with most calls responded to within 90 minutes in the Las Vegas metro area.\n\nWe understand the urgency - an open garage door is both a security risk and invites scorpions and other desert pests inside. Our emergency vans carry temporary securing solutions if parts aren't immediately available, and we follow up the next business day to complete permanent repairs. Common emergency calls include broken springs (especially during temperature swings), off-track doors from wind storms, and opener failures during power fluctuations.",
+        "process": [
+          "Step 1: Immediate phone assessment to determine urgency",
+          "Step 2: On-site evaluation and temporary solution if needed",
+          "Step 3: Explanation of repair options and costs",
+          "Step 4: Permanent repair scheduled if parts required"
+        ],
+        "benefits": [
+          "Available holidays and weekends",
+          "No extra charge for after-hours service",
+          "Priority scheduling for follow-up repairs",
+          "Background-checked technicians"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes a garage door emergency?",
+            "answer": "Any situation where your door won't close and secure your home qualifies, especially in high-wind conditions or extreme temperatures."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Megan T.",
+        "rating": 5,
+        "service": "Garage Door Repair",
+        "text": "Our garage door spring snapped during a 110° heat wave. Legacy had a technician out in 2 hours who replaced it with a heavy-duty model they said would last longer in our climate. Super professional and explained exactly why the original failed.",
+        "date": "2025-06-15"
+      },
+      {
+        "name": "Robert K.",
+        "service": "New Garage Door Installation",
+        "rating": 5,
+        "text": "We needed a door that could handle the afternoon sun on our west-facing garage in Henderson. The team suggested a steel door with special insulation and UV coating. Two years later it still looks brand new despite the brutal sun exposure.",
+        "date": "2025-03-22"
+      },
+      {
+        "name": "Linda S.",
+        "service": "Preventative Maintenance",
+        "rating": 5,
+        "text": "The bi-annual maintenance has saved us so much money. They caught worn rollers before they damaged the track, and their high-temp lubricant actually lasts between visits unlike the hardware store stuff I used to use.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "David P.",
+        "service": "24/7 Emergency Service",
+        "rating": 5,
+        "text": "Our garage door got stuck open during a dust storm at 9pm. Legacy's emergency tech arrived quickly, secured the door temporarily, then came back first thing next morning with the right parts to fix it permanently. Lifesavers!",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Aisha M.",
+        "service": "Opener Installation",
+        "rating": 5,
+        "text": "The new opener they installed is so much quieter than our old one, and the battery backup gives me peace of mind during summer thunderstorms. App control works perfectly with my smart home setup too.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Carlos R.",
+        "service": "Garage Door Repair",
+        "rating": 5,
+        "text": "Fixed our off-track door in Summerlin quickly and explained how our soil shifting might require occasional adjustments. Appreciate their honest advice about when to repair vs. replace.",
+        "date": "2024-08-03"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Las Vegas Garage Door Repair & Installation | Legacy",
+        "description": "Trusted garage door services in Las Vegas, Henderson & Summerlin. Repairs, new installations and maintenance for our extreme desert climate."
+      },
+      "about": {
+        "title": "About Our Las Vegas Garage Door Company | Legacy",
+        "description": "Family-owned garage door service since 2012. Learn why Las Vegas homeowners choose us for reliable repairs and installations."
+      },
+      "services": {
+        "title": "Garage Door Services in Las Vegas | Legacy",
+        "description": "Complete garage door solutions for Southern Nevada homes - from emergency repairs to energy-efficient new installations."
+      },
+      "contact": {
+        "title": "Contact Legacy Garage Door in Las Vegas | 555-GAR-R94",
+        "description": "Schedule garage door service in the Las Vegas area. Same-day repairs available for Henderson, Summerlin and North Las Vegas."
+      },
+      "reviews": {
+        "title": "Las Vegas Garage Door Service Reviews | Legacy",
+        "description": "See what Las Vegas homeowners say about our garage door repair, installation and maintenance services."
+      },
+      "service-areas": {
+        "title": "Garage Door Service Areas Near Las Vegas | Legacy",
+        "description": "We serve Henderson, Summerlin, North Las Vegas and surrounding communities with reliable garage door services."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Henderson",
+        "slug": "henderson-nv",
+        "state": "NV",
+        "content": "Legacy Garage Door proudly serves Henderson, NV, providing top-tier garage door installation, repair, and maintenance services to its growing communities. With extreme summer heat often exceeding 115°F, our durable, heat-resistant garage doors are designed to withstand the harsh desert climate. Whether you're in Green Valley or Anthem, our team ensures fast, reliable service to keep your garage functioning smoothly year-round. Many Henderson homes built from the 1990s to the 2020s feature modern garage door systems that require expert care—trust our local specialists for all your needs.",
+        "localContext": "Henderson is known for its master-planned communities, offering a mix of suburban comfort and modern amenities.",
+        "nearbyAreas": [
+          "Green Valley",
+          "Anthem",
+          "Seven Hills"
+        ]
+      },
+      {
+        "city": "North Las Vegas",
+        "slug": "north-las-vegas-nv",
+        "state": "NV",
+        "content": "Legacy Garage Door is your trusted provider for garage door services in North Las Vegas, NV, where affordable newer construction homes dominate the landscape. The extreme summer heat, often surpassing 115°F, can take a toll on garage doors, making regular maintenance essential. We specialize in energy-efficient and weather-resistant solutions tailored for the local climate. From quick repairs to full replacements, our team delivers prompt, professional service to neighborhoods like Aliante and Eldorado.",
+        "localContext": "North Las Vegas offers budget-friendly housing with rapid growth in residential developments.",
+        "nearbyAreas": [
+          "Aliante",
+          "Eldorado",
+          "Centennial Hills"
+        ]
+      },
+      {
+        "city": "Summerlin",
+        "slug": "summerlin-nv",
+        "state": "NV",
+        "content": "Serving the upscale communities of Summerlin, NV, Legacy Garage Door provides premium garage door solutions for luxurious homes built from the 1990s to the 2020s. The scorching summer heat, frequently above 115°F, demands high-performance garage doors with superior insulation and durability. Our expert team offers custom installations, smart garage door upgrades, and routine maintenance to protect your investment. Whether you're in The Lakes or Red Rock Country Club, we ensure seamless service for your high-end property.",
+        "localContext": "Summerlin is a prestigious master-planned community with golf courses, parks, and upscale residences.",
+        "nearbyAreas": [
+          "The Lakes",
+          "Red Rock Country Club",
+          "The Ridges"
+        ]
+      },
+      {
+        "city": "Las Vegas",
+        "slug": "las-vegas-nv",
+        "state": "NV",
+        "content": "Legacy Garage Door delivers exceptional garage door services across Las Vegas, NV, catering to diverse neighborhoods from historic districts to modern developments. The extreme desert heat, often exceeding 115°F, requires garage doors built for resilience and efficiency. Our team specializes in repairs, replacements, and smart technology integrations for all types of homes. Whether you're in Summerlin, Henderson, or Spring Valley, count on us for reliable, same-day service.",
+        "localContext": "Las Vegas blends vibrant urban living with rapidly expanding suburban communities.",
+        "nearbyAreas": [
+          "Spring Valley",
+          "Paradise",
+          "Enterprise"
+        ]
+      },
+      {
+        "city": "Boulder City",
+        "slug": "boulder-city-nv",
+        "state": "NV",
+        "content": "Legacy Garage Door extends its services to Boulder City, NV, a charming town known for its historic charm and proximity to Lake Mead. Even with milder temperatures than Vegas, garage doors here still face harsh sunlight and occasional windstorms. We offer sturdy, low-maintenance garage doors perfect for Boulder City's relaxed lifestyle. From historic homes to newer builds, our team provides dependable installations and repairs.",
+        "localContext": "Boulder City is a quieter alternative to Las Vegas with strict building codes preserving its small-town feel.",
+        "nearbyAreas": [
+          "Henderson",
+          "Lake Mead",
+          "Searchlight"
+        ]
+      },
+      {
+        "city": "Enterprise",
+        "slug": "enterprise-nv",
+        "state": "NV",
+        "content": "Enterprise, NV, residents trust Legacy Garage Door for all their garage door needs in this fast-growing area near Las Vegas. The extreme summer heat, often exceeding 115°F, calls for durable, energy-efficient garage door solutions. We provide everything from emergency repairs to custom installations for homes in Southern Highlands and nearby communities. Our local expertise ensures your garage door performs flawlessly in the desert climate.",
+        "localContext": "Enterprise is an unincorporated community with rapid residential and commercial development.",
+        "nearbyAreas": [
+          "Spring Valley",
+          "Paradise",
+          "Las Vegas"
+        ]
+      },
+      {
+        "city": "Spring Valley",
+        "slug": "spring-valley-nv",
+        "state": "NV",
+        "content": "Legacy Garage Door serves Spring Valley, NV, a bustling suburban area with a mix of older and newer homes. The intense summer heat, frequently over 115°F, can strain garage door mechanisms, making expert maintenance crucial. We offer reliable repairs, replacements, and insulated door options to combat the desert climate. Whether you're near the Strip or in a quiet neighborhood, our team delivers prompt, professional service.",
+        "localContext": "Spring Valley is a densely populated community with easy access to Las Vegas attractions.",
+        "nearbyAreas": [
+          "Las Vegas",
+          "Paradise",
+          "Enterprise"
+        ]
+      },
+      {
+        "city": "Paradise",
+        "slug": "paradise-nv",
+        "state": "NV",
+        "content": "Legacy Garage Door is proud to serve Paradise, NV, home to the Las Vegas Strip and countless residential neighborhoods. The extreme desert heat, often surpassing 115°F, demands high-quality garage doors built to last. We specialize in fast repairs, noise reduction solutions, and modern smart door installations. Whether you're in a high-rise condo or a suburban home, our team ensures top-notch service tailored to Paradise's unique needs.",
+        "localContext": "Paradise is an unincorporated town housing most of the Las Vegas Strip and surrounding urban areas.",
+        "nearbyAreas": [
+          "Las Vegas",
+          "Spring Valley",
+          "Enterprise"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "garage-door-repair": "/images/service-garage-door-repair.webp",
+      "new-garage-door-installation": "/images/service-new-garage-door-installation.webp",
+      "garage-door-maintenance": "/images/service-garage-door-maintenance.webp",
+      "opener-installation": "/images/service-opener-installation.webp",
+      "emergency-service": "/images/service-emergency-service.webp"
+    },
+    "servicesResponsive": {
+      "garage-door-repair": {
+        "src": "/images/service-garage-door-repair.webp",
+        "srcset": "/images/service-garage-door-repair-400w.webp 400w, /images/service-garage-door-repair-800w.webp 800w, /images/service-garage-door-repair-1200w.webp 1200w, /images/service-garage-door-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "new-garage-door-installation": {
+        "src": "/images/service-new-garage-door-installation.webp",
+        "srcset": "/images/service-new-garage-door-installation-400w.webp 400w, /images/service-new-garage-door-installation-800w.webp 800w, /images/service-new-garage-door-installation-1200w.webp 1200w, /images/service-new-garage-door-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "garage-door-maintenance": {
+        "src": "/images/service-garage-door-maintenance.webp",
+        "srcset": "/images/service-garage-door-maintenance-400w.webp 400w, /images/service-garage-door-maintenance-800w.webp 800w, /images/service-garage-door-maintenance-1200w.webp 1200w, /images/service-garage-door-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "opener-installation": {
+        "src": "/images/service-opener-installation.webp",
+        "srcset": "/images/service-opener-installation-400w.webp 400w, /images/service-opener-installation-800w.webp 800w, /images/service-opener-installation-1200w.webp 1200w, /images/service-opener-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-service": {
+        "src": "/images/service-emergency-service.webp",
+        "srcset": "/images/service-emergency-service-400w.webp 400w, /images/service-emergency-service-800w.webp 800w, /images/service-emergency-service-1200w.webp 1200w, /images/service-emergency-service.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
